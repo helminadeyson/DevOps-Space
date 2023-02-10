@@ -23,3 +23,8 @@ variable "private_subnet_1a_cidr" {
     description = "cidr for private subnet 1a"
     default = "10.0.2.0/24"
 }
+
+variable "private_subnet_1b_cidr" {
+    type = string
+    description = "cidr for private subnet 1b"
+    default = "10.0.3.0/24"
